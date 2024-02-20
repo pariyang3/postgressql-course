@@ -1,7 +1,0 @@
-CREATE TABLE listItems (
-    liID SERIAL PRIMARY KEY,
-    iID INT REFERENCES lists NOT NULL,
-    iID INT REFERENCES items NOT NULL,
-    liDesired INT NOT NULL DEFAULT 1,
-    liPurchased INT NTO NULL DEFAULT 0,
-)
